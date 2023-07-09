@@ -91,7 +91,7 @@ loss_fn=nn.L1Loss()
 
 # We want to optimize parameters of our model_0 and we are putting our learning date at 0.01
 
-optimizer= torch.optim.SGD(params=model_0.parameters(),lr=0.01)
+optimizer= torch.optim.SGD(params=model_0.parameters(),lr=0.001)
 
 
 
@@ -108,7 +108,7 @@ optimizer= torch.optim.SGD(params=model_0.parameters(),lr=0.01)
 torch.manual_seed(42)
 
 # Set the number of epochs (how many times the model will pass over the training data)
-epochs = 300
+epochs = 1700
 
 # Create empty loss lists to track values
 
